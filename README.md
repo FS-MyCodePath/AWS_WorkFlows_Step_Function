@@ -35,9 +35,11 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 
 ## Exemplo de Workflow ##
 
-1. Workflow Aprovação de Pedido de Compra
+1. Workflow para Aprovação de Pedido de Compra
 
-   imagem
+  
+   <img src="./images/AWS WorkFlows Aprovação de Pedido de Compra.svg" width="600" />
+   
 
 ## Dicionário ##
 
