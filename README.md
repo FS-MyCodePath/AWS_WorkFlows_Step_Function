@@ -41,7 +41,35 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 
 ## Dicionário ##
 
++ O que é validação?
 
+  É o processo de garantir que os dados e decisões dentro de um fluxo de trabalho estejam corretos antes de avançar para a próxima etapa. Ela pode ocorrer de várias formas:
+
+- Validação de entrada: Verifica se os dados recebidos estão completos e corretos.
+
+- Validação condicional: Usa estados de decisão (Choice State) para direcionar o fluxo com base em regras.
+
+- Validação de saída: Confere se os resultados de uma etapa estão no formato esperado.
+
+- Validação com Lambda: Executa verificações mais complexas, como regras de negócio ou consultas externas.
+
+- Validação estrutural: Usa ferramentas da AWS para verificar erros no design do fluxo antes da execução.
+
+- Essa validação torna os workflows mais seguros, confiáveis e alinhados com os objetivos da aplicação.
+
+  
++ O que é CloudFoundation?
+
+É um conjunto de conceitos, práticas e treinamentos que ensinam os fundamentos da nuvem AWS.
+A CloudFoundation faz integração com outros componentes da AWS. E ajuda a step function com:
+
+- Ensina como usar IAM para controlar acesso às máquinas de estado;
+- Mostra como monitorar execuções com CloudWatch Logs e Metrics;
+- Explica como conectar Lambda, DynamoDB, SNS, SQS e outros serviços;
+- Ajuda a entender limites, custos e escalabilidade;
+- Promove boas práticas de design de workflows desacoplados e resilientes;
+  
+Isso é importante para evitar erros como permissões mal configuradas (IAM), falta de visibilidade sobre falhas (sem CloudWatch), fluxos acoplados demais, difíceis de escalar ou manter, uso ieficiente de recursos, gerando custos desnecessários. Dessa forma é possível criar worflows robustos, seguros e otimizados com Step Function.
 
 ## Referências ##
 
