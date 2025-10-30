@@ -63,7 +63,7 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 + O que é CloudFoundation?
 
 É um conjunto de conceitos, práticas e treinamentos que ensinam os fundamentos da nuvem AWS.
-A CloudFoundation faz integração com outros componentes da AWS. E ajuda a step function com:
+Ajuda a step function com:
 
 - Ensina como usar IAM para controlar acesso às máquinas de estado;
 - Mostra como monitorar execuções com CloudWatch Logs e Metrics;
