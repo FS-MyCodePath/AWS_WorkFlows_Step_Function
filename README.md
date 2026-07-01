@@ -7,28 +7,28 @@
 <p/>
 
 ## Objetivos ##
-Este repositório tem como objetivo consolidar meus conhecimentos em workflows automatizados com AWS Step Functions e organizar anotações e insights adquiridos durante meu estudo e a prática.
+&nbsp; &nbsp; &nbsp; &nbsp; Este repositório tem como objetivo consolidar meus conhecimentos em workflows automatizados com AWS Step Functions e organizar anotações e insights adquiridos durante meu estudo e a prática.
 
 ## Step Function ##
 
-O Step Functions é um serviço de fluxo de trabalho visual que ajuda os desenvolvedores a usar os produtos da AWS para desenvolver aplicações distribuídas, automatizar processos, orquestrar microsserviços e criar pipelines de dados e machine learning (ML).
+&nbsp; &nbsp; &nbsp; &nbsp; O Step Functions é um serviço de fluxo de trabalho visual que ajuda os desenvolvedores a usar os produtos da AWS para desenvolver aplicações distribuídas, automatizar processos, orquestrar microsserviços e criar pipelines de dados e machine learning (ML).
 
-O Step Functions é baseado em máquinas de estado e tarefas. No Step Functions, as máquinas de estado são chamadas de fluxos de trabalho, que são uma série de etapas orientadas a eventos. Cada etapa no fluxo de trabalho é chamada de estado. Por exemplo, um estado de tarefa representa uma unidade de trabalho que outro AWS serviço executa, como chamar outro AWS service (Serviço da AWS) ou API. As instâncias de fluxos de trabalho em andamento que executam tarefas são chamadas de execuções no Step Functions.
+&nbsp; &nbsp; &nbsp; &nbsp; O Step Functions é baseado em máquinas de estado e tarefas. No Step Functions, as máquinas de estado são chamadas de fluxos de trabalho, que são uma série de etapas orientadas a eventos. Cada etapa no fluxo de trabalho é chamada de estado. Por exemplo, um estado de tarefa representa uma unidade de trabalho que outro AWS serviço executa, como chamar outro AWS service (Serviço da AWS) ou API. As instâncias de fluxos de trabalho em andamento que executam tarefas são chamadas de execuções no Step Functions.
 
 Obs: Não esquecer de usar a calculadora antes de começar qualquer projeto no Step Function.
 
 **Casos de Uso** 
 
-Automatize os processos de extração, transformação e carregamento (ETL) -
+&nbsp; &nbsp; &nbsp; &nbsp; Automatize os processos de extração, transformação e carregamento (ETL) -
 Garanta que diversos trabalhos de ETL de execução prolongada sejam executados em ordem e concluídos com êxito, sem a necessidade de orquestração manual.
 
-Orquestre workloads paralelas de grande escala -
+&nbsp; &nbsp; &nbsp; &nbsp; Orquestre workloads paralelas de grande escala -
 Repita e processe grandes conjuntos de dados, como logs de segurança, dados de transações ou arquivos de imagem e vídeo.
 
-Orquestre microsserviços - 
+&nbsp; &nbsp; &nbsp; &nbsp; Orquestre microsserviços - 
 Combine diversas funções do AWS Lambda em aplicações e microsserviços responsivos sem servidor.
 
-Automatize funções de segurança e TI - 
+&nbsp; &nbsp; &nbsp; &nbsp; Automatize funções de segurança e TI - 
 Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, como resposta a incidentes de segurança.
 
 1. Realizando validações no Step Function
@@ -47,7 +47,7 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 
 ## Dicionário ##
 
-+ O que é validação?  
+&nbsp; &nbsp; &nbsp; &nbsp;  O que é validação?  
 
   É o processo de garantir que os dados e decisões dentro de um fluxo de trabalho estejam corretos antes de avançar para a próxima etapa. Ela pode ocorrer de várias formas:
 
@@ -64,7 +64,7 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 - Essa validação torna os workflows mais seguros, confiáveis e alinhados com os objetivos da aplicação.  
 
   
-+ O que é CloudFoundation?  
+&nbsp; &nbsp; &nbsp; &nbsp;  O que é CloudFoundation?  
 
 É um conjunto de conceitos, práticas e treinamentos que ensinam os fundamentos da nuvem AWS.  
 Ajuda a step function com:
@@ -75,7 +75,7 @@ Ajuda a step function com:
 - Ajuda a entender limites, custos e escalabilidade;
 - Promove boas práticas de design de workflows desacoplados e resilientes;
   
-Isso é importante para evitar erros como permissões mal configuradas (IAM), falta de visibilidade sobre falhas (sem CloudWatch), fluxos acoplados demais, difíceis de escalar ou manter, uso ieficiente de recursos, gerando custos desnecessários. Dessa forma é possível criar worflows robustos, seguros e otimizados com Step Function.
+&nbsp; &nbsp; &nbsp; &nbsp; Isso é importante para evitar erros como permissões mal configuradas (IAM), falta de visibilidade sobre falhas (sem CloudWatch), fluxos acoplados demais, difíceis de escalar ou manter, uso ieficiente de recursos, gerando custos desnecessários. Dessa forma é possível criar worflows robustos, seguros e otimizados com Step Function.
 
 ## Referências ##
 
