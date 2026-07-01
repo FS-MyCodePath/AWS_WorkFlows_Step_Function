@@ -1,6 +1,10 @@
 # AWS WorkFlows Step Function
-☁️ AWS Bootcamp Code Girls 2025
 
+<p align="center">
+☁️ AWS Bootcamp Code Girls 2025  <p/>
+<p align="center">
+<img src = "./images/Step_function.png" width="500">
+<p/>
 
 ## Objetivos ##
 Este repositório tem como objetivo consolidar meus conhecimentos em workflows automatizados com AWS Step Functions e organizar anotações e insights adquiridos durante meu estudo e a prática.
@@ -43,7 +47,7 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 
 ## Dicionário ##
 
-+ O que é validação?
++ O que é validação?  
 
   É o processo de garantir que os dados e decisões dentro de um fluxo de trabalho estejam corretos antes de avançar para a próxima etapa. Ela pode ocorrer de várias formas:
 
@@ -57,12 +61,12 @@ Crie fluxos de trabalho automatizados, incluindo etapas de aprovação manual, c
 
 - Validação estrutural: Usa ferramentas da AWS para verificar erros no design do fluxo antes da execução.
 
-- Essa validação torna os workflows mais seguros, confiáveis e alinhados com os objetivos da aplicação.
+- Essa validação torna os workflows mais seguros, confiáveis e alinhados com os objetivos da aplicação.  
 
   
-+ O que é CloudFoundation?
++ O que é CloudFoundation?  
 
-É um conjunto de conceitos, práticas e treinamentos que ensinam os fundamentos da nuvem AWS.
+É um conjunto de conceitos, práticas e treinamentos que ensinam os fundamentos da nuvem AWS.  
 Ajuda a step function com:
 
 - Ensina como usar IAM para controlar acesso às máquinas de estado;
