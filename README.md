@@ -3,7 +3,7 @@
 <p align="center">
 ☁️ AWS Bootcamp Code Girls 2025  <p/>
 <p align="center">
-<img src = "./images/Step_function.png" width="500">
+<img src = "./images/StepFunction_logo.png" width="500">
 <p/>
 
 ## Objetivos ##
